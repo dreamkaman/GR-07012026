@@ -1,0 +1,14 @@
+.dailyPointsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    grid-area: C;
+
+    background-color: var(--bg-block-color);
+}
+
+.dailyPoints {
+    color: var(--font-light-color);
+}

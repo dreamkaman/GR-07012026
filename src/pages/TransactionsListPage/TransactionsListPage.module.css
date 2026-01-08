@@ -1,0 +1,13 @@
+.top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas:
+        " A B"
+        "C B";
+    gap: 4px;
+
+    min-height: 200px;
+
+    margin-bottom: 20px;
+}

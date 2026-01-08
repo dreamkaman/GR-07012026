@@ -1,0 +1,17 @@
+.latestTransactionsTitle {
+    margin-bottom: 10px;
+
+    font-size: 16px;
+}
+
+.latestTransactionsList {
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.latestTransactionsListItem {
+    padding: 10px 0 0 10px;
+
+    background-color: var(--bg-block-color);
+}

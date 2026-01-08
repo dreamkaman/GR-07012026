@@ -1,0 +1,64 @@
+[
+  {
+    "id": "txn_001",
+    "type": "Payment",
+    "amount": 1250.5,
+    "transactionName": "Amazon",
+    "description": "Online purchase",
+    "date": "2025-01-05T10:45:00Z",
+    "isPending": false,
+    "status": "Approved",
+    "authorizedUser": "Vlad",
+    "icon": "amazon"
+  },
+  {
+    "id": "txn_002",
+    "type": "Credit",
+    "amount": 3200,
+    "expense": 2,
+    "transactionName": "Apple Store",
+    "description": "Monthly salary payment",
+    "date": "2025-01-03T08:00:00Z",
+    "isPending": false,
+    "status": "Approved",
+    "authorizedUser": "Company Payroll",
+    "icon": "apple"
+  },
+  {
+    "id": "txn_003",
+    "type": "Payment",
+    "amount": 89.99,
+    "transactionName": "Netflix",
+    "description": "Subscription fee",
+    "date": "2025-01-06T19:20:00Z",
+    "isPending": true,
+    "status": "Approved",
+    "authorizedUser": "Vlad",
+    "icon": "netflix"
+  },
+  {
+    "id": "txn_004",
+    "type": "Payment",
+    "amount": 450,
+    "transactionName": "Apple Store",
+    "description": "iCloud storage plan",
+    "date": "2026-01-02T14:10:00Z",
+    "isPending": false,
+    "status": "Approved",
+    "authorizedUser": "Vlad",
+    "icon": "apple"
+  },
+  {
+    "id": "txn_005",
+    "type": "Credit",
+    "amount": 150,
+    "expense": 2,
+    "transactionName": "Refund",
+    "description": "Order refund",
+    "date": "2026-01-07T16:30:00Z",
+    "isPending": false,
+    "status": "Approved",
+    "authorizedUser": "Amazon",
+    "icon": "amazon"
+  }
+]

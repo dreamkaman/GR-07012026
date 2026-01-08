@@ -1,0 +1,77 @@
+.infoBlock {
+    display: grid;
+    grid-template-columns: 40px 1fr 20px;
+    grid-template-rows: 1;
+    gap: 15px;
+
+    padding-bottom: 15px;
+    padding-right: 10px;
+
+    border-bottom: 1.5px solid var(--bg-page-color);
+}
+
+.companyLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 5px;
+
+    background-color: var(--bg-icon-color);
+}
+
+.logoIcon {
+    width: 30px;
+    height: 30px;
+
+    fill: white;
+}
+
+.textPart {}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+
+    color: var(--font-light-color);
+}
+
+.expense {
+    padding: 3px;
+    border-radius: 3px;
+
+    background-color: #F2F2F6;
+}
+
+.date {
+    color: var(--font-light-color);
+}
+
+.linkButton {
+    width: 20px;
+    height: 20px;
+
+}
+
+.btnIcon {
+    width: 20px;
+    height: 20px;
+    fill: var(--font-light-color);
+}

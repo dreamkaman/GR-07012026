@@ -1,0 +1,61 @@
+.linkBack {
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+
+    margin-bottom: 20px;
+}
+
+.linkIcon {
+    width: 20px;
+    height: 20px;
+
+    transform: rotate(180deg);
+}
+
+.summa {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.text {
+    text-align: center;
+
+    color: var(--font-light-color);
+}
+
+.dateTime {
+    margin-bottom: 40px;
+    text-align: center;
+
+    color: var(--font-light-color);
+}
+
+.infoBlock {}
+
+.top {
+    padding-bottom: 10px;
+
+    border-bottom: 2px solid var(--bg-page-color);
+}
+
+.status {
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.description {
+    color: var(--font-light-color);
+}
+
+.totalLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 10px;
+
+    font-weight: 600;
+}
