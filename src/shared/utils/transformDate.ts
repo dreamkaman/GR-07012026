@@ -13,6 +13,10 @@ export function transformDate(date: string) {
     historyDay.getMonth() + 1 > 9
       ? historyDay.getMonth() + 1
       : `0${historyDay.getMonth() + 1}`;
-  const day = historyDay.getDate();
+  const day =
+    historyDay.getDate() > 9
+      ? historyDay.getDate()
+      : `0${historyDay.getDate()}`;
+      
   return `${month}/${day}/${year.toString().slice(-2)}`;
 }
