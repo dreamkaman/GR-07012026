@@ -6,8 +6,6 @@ function getDaysInMonth(year: number, month: number) {
 export function calculateDailyPoints() {
   const today = new Date();
 
-  console.log(today);
-
   const dailyPoints: number[] = [];
 
   const currentSeasonDay = getCurrentSeasonDay(today);

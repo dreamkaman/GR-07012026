@@ -8,8 +8,6 @@ const transactions = data as ITransaction[];
 
 const LatestTransactionsBlock = () => {
 
-    console.log(transactions);
-
     return <div>
         <p className={`${s.latestTransactionsTitle} title`}>Latest Transactions</p>
         <ul className={s.latestTransactionsList}>
